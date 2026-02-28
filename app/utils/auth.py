@@ -12,9 +12,9 @@ def Register(username, password, role):
     hashed = hashPassword(password)
 
     if role == 'admin':
-        user_obj= Admin(user_id, username, hashed)
+        user_obj= Admin(user_id, username, hashed, role)
     else:
-        user_obj= Student(user_id, username, hashed)
+        user_obj= Student(user_id, username, hashed, role)
 
     #append user_obj to users    
     users.append({
