@@ -5,7 +5,7 @@ class Course:
         self.course_id= course_id
         self.course_name=course_name
         self._total_fees= total_fees
-        self.students=students
+        self.students=students or []
         
     @property
     def fees(self):
