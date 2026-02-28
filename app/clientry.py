@@ -4,7 +4,7 @@ from app.models.course import Course
 from app.models.payment import Payment
 from app.models.user import Admin
 from app.models.user import Student
-from app.utils.file_handler import read_json, save_json, payment_path, user_path, session_path, course_path
+from app.utils.file_reader import read_json, save_json, payment_path, user_path, session_path, course_path
 from datetime import date
 
 current_user=None
