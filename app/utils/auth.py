@@ -1,5 +1,5 @@
 import hashlib
-from app.utils.file_handler import save_json, read_json, user_path, payment_path
+from app.utils.file_reader import save_json, read_json, user_path, payment_path
 from app.models.user import Student, Admin
 
 def hashPassword(password):
