@@ -1,0 +1,10 @@
+[
+    {
+        "payment_id": 1,
+        "student_id": 2,
+        "student_username": "eugene",
+        "course_name": "computer science",
+        "amount_paid": 20000,
+        "date_paid": "2026-03-03"
+    }
+]

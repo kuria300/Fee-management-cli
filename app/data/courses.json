@@ -1,20 +1,8 @@
 [
     {
         "course_id": 1,
-        "course_name": "data-science",
-        "fees": "45000",
-        "students": [
-            {
-                "id": 1,
-                "username": "eugene",
-                "role": "student"
-            }
-        ]
-    },
-    {
-        "course_id": 2,
-        "course_name": "computer-science",
-        "fees": "50000",
+        "course_name": "computer science",
+        "fees": 44000,
         "students": [
             {
                 "id": 2,
@@ -22,10 +10,5 @@
                 "role": "student"
             }
         ]
-    },
-    {
-        "course_id": 3,
-        "course_name": "cybersecurity",
-        "fees": 35000
     }
 ]

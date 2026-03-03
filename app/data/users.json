@@ -1,14 +1,20 @@
 [
     {
         "id": 1,
-        "username": "master",
-        "password": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270",
+        "username": "admin",
+        "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
         "role": "admin"
     },
     {
         "id": 2,
         "username": "eugene",
-        "password": "92744af54e8bd70ef83ff2dab06712e60f2fc72550a89f151b1dfb1e0494aa17",
+        "password": "19b9dd3e24fad97f47400340f81e118ca3f88be2ee3503b34b9bde0ad5ad7ebd",
+        "role": "student"
+    },
+    {
+        "id": 3,
+        "username": "ian",
+        "password": "b1d096f1bb57e734f8362fa66fcea92860ee9213012005ee5d7f6505de98d861",
         "role": "student"
     }
 ]
